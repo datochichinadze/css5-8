@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bodyclassdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+
+body {
+    background-color: #141414;
+    color: #FFF;
+}
+
+
+/* header */
+
+
+nav {
+    display: flex;
+}
+
+
+.hedcontainerone {
+    display: flex;
+}
+
+
+.headercontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.headerdiv {
+    display: inline-flex;
+    width: 224px;
+    height: 1715px;
+    padding: 16px 16px 1201px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-right: 1px solid #434343;
+    background-color: #222224;
+}
+
+
+
+.headerhome {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+.headerClass {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-bottom: 1px solid #434343;
+    padding-bottom: 24px;
+}
+
+
+
+.homeClass {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 84px 8px 16px;
+    border-radius: 12px;
+    background-color: #FAE101;
+}
+
+
+
+.CompanyClass {
+    color: #989898;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+
+
+.GeneralClass {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+.UsermemberClass {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 84px 8px 16px;
+}
+
+
+
+.UsermemberClass p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+.memberClass {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 55px 8px 16px;
+}
+
+
+
+.memberClass p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+/*  */
+
+
+
+
+.headerfirstclass {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #434343;
+}
+
+
+
+.acauntsstyleClass {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+.AccountClass {
+    color: #989898;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+
+
+.imgandtextClass {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 84px 8px 16px;
+}
+
+
+
+.imgandtextClass p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+.GroupClass {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 55px 8px 16px;
+}
+
+
+
+
+.GroupClass p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+
+/*  */
+
+
+
+.navcontainer {
+    display: inline-flex;
+    padding: 16px 16px 16px 304px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 208px;
+}
+
+
+
+.inpuClassstyle {
+    display: flex;
+}
+
+
+.inpuClassstyle input {
+    border-radius: 8px 0px 0px 8px;
+    border-top: 1px solid #FAE101;
+    border-bottom: 1px solid #FAE101;
+    border-left: 1px solid #FAE101;
+    background: none;
+    padding: 8px 379px 8px 10px;
+    color: #FFF;
+}
+
+
+
+.Groupstylediv {
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #FAE101;
+}
+
+
+
+.inpuClassstyle input:placeholder-shown {
+    color: #FAE101;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.navandheaderClass {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
