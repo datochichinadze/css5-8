@@ -8,8 +8,7 @@
 
 .bodyclassdiv {
     display: flex;
-    flex-direction: column;
-    gap: 32px;
+    gap: 64px;
 }
 
 
@@ -22,9 +21,17 @@ body {
 
 /* header */
 
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #222224;
+    border-right: 1px solid #434343;
+}
+
 
 nav {
     display: flex;
+    justify-content: center;
 }
 
 
@@ -41,15 +48,11 @@ nav {
 
 
 .headerdiv {
-    display: inline-flex;
-    width: 224px;
-    height: 1715px;
-    padding: 16px 16px 1201px 16px;
+    display: flex;
+    padding: 16px 16px 0px 16px;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
-    border-right: 1px solid #434343;
-    background-color: #222224;
 }
 
 
@@ -218,10 +221,10 @@ nav {
 
 
 .navcontainer {
-    display: inline-flex;
-    padding: 16px 16px 16px 304px;
-    justify-content: flex-end;
-    align-items: flex-start;
+    display: flex;
+    padding: 16px 16px;
+    justify-content: center;
+    align-items: center;
     gap: 208px;
 }
 
@@ -289,10 +292,11 @@ nav {
     display: flex;
     gap: 259px;
     justify-content: center;
-    padding: 19px 170px 19px 40px;
+    padding: 19px 19px;
     border-radius: 16px;
     background-color: #222224;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 
@@ -360,6 +364,7 @@ nav {
     display: flex;
     gap: 12px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 
@@ -417,6 +422,7 @@ nav {
     display: flex;
     gap: 16px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 
@@ -469,7 +475,7 @@ nav {
     height: 260px;
     align-items: center;
     gap: 16px;
-    align-self: stretch;
+    flex-wrap: wrap;
 }
 
 
@@ -484,6 +490,7 @@ nav {
     border: 1px solid #FAE101;
     background-color: #222224;
 }
+
 
 
 
@@ -601,7 +608,7 @@ nav {
     display: flex;
     align-items: flex-start;
     gap: 24px;
-    align-self: stretch;
+    flex-wrap: wrap;
 }
 
 
@@ -616,6 +623,19 @@ nav {
     border-radius: 12px;
     border: 1px solid #FAE101;
 }
+
+
+.imagesandtext {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+}
+
 
 
 .onetextstyle {
