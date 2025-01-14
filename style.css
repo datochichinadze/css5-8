@@ -270,3 +270,371 @@ nav {
     gap: 12px;
     align-items: center;
 }
+
+
+
+
+/* main */
+
+
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.maindivone {
+    display: flex;
+    gap: 259px;
+    justify-content: center;
+    padding: 19px 170px 19px 40px;
+    border-radius: 16px;
+    background-color: #222224;
+    align-items: center;
+}
+
+
+
+.mianClass {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+
+.giftingClass {
+    color: #FAE101;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+
+
+
+.BuyClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    max-width: 250px;
+    width: 100%;
+}
+
+
+
+.PellentesqueClass {
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    max-width: 277px;
+    width: 100%;
+}
+
+
+
+
+.pretiumspanClass {
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+
+
+/*  */
+
+
+
+
+.allClassone {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+
+.imagesgrencClass {
+    display: flex;
+    padding: 8px 16px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 24px;
+    background-color: #FAE101;
+}
+
+
+
+.containerClass {
+    display: flex;
+    padding: 8px 16px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 24px;
+    background-color: #222224;
+}
+
+
+
+
+
+/*  */
+
+
+
+
+
+.mainoneClass {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+
+
+.maintextandclockClass {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+
+.clockClass {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+
+
+.FlashClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+
+.saleClass {
+    color: #FAE101;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+
+.EndingClass {
+    color: #797979;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+
+.Clocktext span {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #FAE101;
+}
+
+
+
+.paddingClass {
+    display: flex;
+    height: 260px;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+
+
+.paddstyle {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+    background-color: #222224;
+}
+
+
+
+.textstyleClass {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+
+.starClass {
+    display: flex;
+    gap: 2px;
+}
+
+
+.stoleClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    max-width: 100px;
+    width: 100%;
+}
+
+
+
+.GrinchClass {
+    color: #797979;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 120px;
+    width: 100%;
+}
+
+
+
+.dolaroneClass {
+    color: #FAE101;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+
+
+.dolartwoClass {
+    color: #797979;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+
+.buttonstyleClass {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 40px;
+    display: flex;
+    height: 30px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    background-color: #FAE101;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.buttonstyleClass:hover {
+    color: #FFF;
+}
+
+
+
+/*  */
+
+
+
+
+.secondmaincontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+.ThemesClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+
+.onedivcontainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+
+
+.imagesandtextpaddstyle {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+}
+
+
+.onetextstyle {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+
+
+.secondtexstyle {
+    color: #797979;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 200px;
+    width: 100%;
+}
